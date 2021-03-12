@@ -1,0 +1,240 @@
+body{
+    font-family: open sans ;
+    background-color: rgba(22, 26, 29, 0.966);
+    color: #5abd55;
+
+}
+.door{
+    color: rgb(151, 73, 73);
+
+}
+.home{
+    color: black;
+}
+.door1{
+    color: rgba(20, 13, 41, 0.822);
+    
+}
+.text1{
+    font-family: open sans;
+    font-size: 4em;
+    margin-top: 70mm;
+    margin-left: 80mm;
+    font-weight: 1000;
+}
+/*
+
+.img_2{
+    margin-top: -100mm ;
+    margin-left: 350mm ;
+    margin-bottom:100mm ;
+    margin-right:90mm ;
+    position: relative;
+
+}
+*/
+.img_3{
+    margin-top: -35mm ;
+    margin-left: 280mm ;
+    margin-bottom:100mm ;
+    margin-right:0mm ;
+}
+
+.img_2{
+    margin-top: -250mm ;
+    margin-left: 350mm ;
+    margin-bottom:100mm ;
+    margin-right:90mm ;
+    position: relative;
+
+}
+.img_1{
+    margin-top: -240mm ;
+    margin-left: 270mm ;
+    margin-bottom:100mm ;
+    margin-right:90mm ;
+    transform: translate(30px,10px);
+    position: absolute;
+}
+.para{
+    font-family: open sans;
+    color: ivory;
+    margin-left: 100mm;
+    margin-top: -150mm;
+}
+
+.button1 {
+    background-color: #034103; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40mm;
+    margin-left: 120mm;
+    border-radius: 2px;
+    margin-top: 5mm;
+  }
+
+  .button2 {
+    background-color: #2444ac; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 10mm;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15mm;
+  }
+  
+  .button3{
+    background-color: #5d2062; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 10mm;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10mm;
+    margin-top: -10mm;
+  }
+  .button4{
+    background-color: #2b81e2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 10mm;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10mm;
+    margin-top: -10mm;
+    
+  }
+  .ptr_1{
+    width: 35%;
+    height: 400px;
+    margin-top: 70mm;
+     position: relative;
+    overflow: hidden;
+      
+      
+  }
+  .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 128, 2, 0.712);
+  }
+  .abt_img_1 {
+    margin-left: 100mm;
+    margin-top: -140mm;
+    position: absolute;
+  }
+  .abt_txt_1{
+    margin-left: 270mm;
+    margin-top: -140mm;
+    font-size: 6mm;
+    text-decoration: underline;
+  }
+
+  .abt_txt_2{
+    font-family:open sans ;
+    margin-left: 270mm;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12mm;
+  }
+  .abt_txt_3{
+    margin-left: 275mm;
+    color: rgb(241, 223, 239);
+    font-size: 6mm;
+  }
+/*
+  .abt_button1 {
+    margin-left: 270mm;
+    background-color: #0f51b4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  */
+  .abt_button1{
+      margin-left: 275mm;
+      background-color: royalblue;
+      border: none;
+      color: white;
+      padding: 15px 32px; 
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer; 
+
+  }
+  .abt_txt_4{
+    margin-left: 120mm;
+    margin-top: 80mm;
+    font-size: 6mm;
+    text-decoration: underline;
+  }
+  .abt_txt_5{
+      font-size: 12mm;
+      margin-left: 120mm;
+      color: rgb(254, 255, 255);
+      font-weight: bold;
+  }
+  .abt_txt_6{
+      font-size: 6mm;
+      margin-left: 120mm;
+      color: rgb(241, 223, 239) ;
+  }
+  .abt_img_2{
+      margin-left: 265mm;
+      margin-top: -110mm;
+  }
+  .text_block_1{
+      background-color: white;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      margin-left: 265mm;
+      margin-right: 143mm;
+  }
+  .abt_txt_7{
+      color: black;
+      font-size: 5mm;
+      font-weight: bold;
+  }
+  .abt_txt_8{
+      color: rgb(75, 74, 77);
+      font-family: open sans;
+  }
